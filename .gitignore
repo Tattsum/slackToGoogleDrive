@@ -1,0 +1,14 @@
+# Secrets — never commit
+# Google auth uses gcloud ADC (~/.config/gcloud). oauth-client.json is only the
+# custom OAuth client used for `gcloud auth application-default login`.
+.env
+oauth-client.json
+
+# Runtime artifacts
+/downloads/
+manifest.json
+manifest.json.tmp
+
+# Build output
+/slacktodrive
+/bin/
