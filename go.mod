@@ -4,7 +4,7 @@ go 1.26
 
 require (
 	github.com/slack-go/slack v0.17.3
-	golang.org/x/oauth2 v0.30.0
+	golang.org/x/oauth2 v0.36.0
 	google.golang.org/api v0.246.0
 )
 
